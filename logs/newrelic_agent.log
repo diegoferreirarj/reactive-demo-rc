@@ -1,0 +1,180 @@
+2020-11-09T21:12:28,644-0200 [10135 1] com.newrelic INFO: Writing to New Relic log file: /Users/diego.ferreira/Documents/projects/reactive-demo-rc/logs/newrelic_agent.log
+2020-11-09T21:12:28,645-0200 [10135 1] com.newrelic INFO: JRE vendor Oracle Corporation version 11
+2020-11-09T21:12:28,645-0200 [10135 1] com.newrelic INFO: JVM vendor Oracle Corporation OpenJDK 64-Bit Server VM version 11+28
+2020-11-09T21:12:28,645-0200 [10135 1] com.newrelic INFO: OS Mac OS X version 10.15.7 arch x86_64
+2020-11-09T21:12:28,646-0200 [10135 1] com.newrelic INFO: Agent Host: MAC-327.local IP: 127.0.0.1
+2020-11-09T21:12:28,646-0200 [10135 1] com.newrelic INFO: New Relic Agent v6.1.0 is initializing...
+2020-11-09T21:12:29,461-0200 [10135 17] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2020-11-09T21:12:30,502-0200 [10135 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2020-11-09T21:12:30,701-0200 [10135 1] com.newrelic INFO: Setting audit_mode to false
+2020-11-09T21:12:30,882-0200 [10135 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /Users/diego.ferreira/Documents/projects/reactive-demo-rc/./newrelic.yml
+2020-11-09T21:12:30,893-0200 [10135 1] com.newrelic INFO: New Relic Agent v6.1.0 has started
+2020-11-09T21:12:30,894-0200 [10135 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@64485a47
+2020-11-09T21:12:30,894-0200 [10135 1] com.newrelic INFO: Premain startup complete in 3.256ms
+2020-11-09T21:14:08,551-0200 [10135 12] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2020-11-09T21:14:08,599-0200 [10135 12] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2020-11-09T21:14:16,440-0200 [10157 1] com.newrelic INFO: Writing to New Relic log file: /Users/diego.ferreira/Documents/projects/reactive-demo-rc/logs/newrelic_agent.log
+2020-11-09T21:14:16,441-0200 [10157 1] com.newrelic INFO: JRE vendor Oracle Corporation version 11
+2020-11-09T21:14:16,441-0200 [10157 1] com.newrelic INFO: JVM vendor Oracle Corporation OpenJDK 64-Bit Server VM version 11+28
+2020-11-09T21:14:16,441-0200 [10157 1] com.newrelic INFO: OS Mac OS X version 10.15.7 arch x86_64
+2020-11-09T21:14:16,441-0200 [10157 1] com.newrelic INFO: Agent Host: MAC-327.local IP: 127.0.0.1
+2020-11-09T21:14:16,441-0200 [10157 1] com.newrelic INFO: New Relic Agent v6.1.0 is initializing...
+2020-11-09T21:14:17,105-0200 [10157 17] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2020-11-09T21:14:18,049-0200 [10157 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2020-11-09T21:14:18,213-0200 [10157 1] com.newrelic INFO: Setting audit_mode to false
+2020-11-09T21:14:18,342-0200 [10157 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /Users/diego.ferreira/Documents/projects/reactive-demo-rc/./newrelic.yml
+2020-11-09T21:14:18,347-0200 [10157 1] com.newrelic INFO: New Relic Agent v6.1.0 has started
+2020-11-09T21:14:18,347-0200 [10157 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@64485a47
+2020-11-09T21:14:18,347-0200 [10157 1] com.newrelic INFO: Premain startup complete in 2.713ms
+2020-11-09T21:16:18,556-0200 [10157 37] com.newrelic INFO: Host name is MAC-327.local, display host MAC-327.local for application reactive-demo
+2020-11-09T21:16:19,139-0200 [10157 37] com.newrelic INFO: Collector redirection to collector-003.newrelic.com:443
+2020-11-09T21:16:19,613-0200 [10157 37] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2020-11-09T21:16:19,613-0200 [10157 37] com.newrelic INFO: Agent run id: Bf-DtGWE4pEGACzV0yyrWmNfqc4oAAIBAAAnIQEAACetAgQsq1piAwAFNi4xLjAADU1BQy0zMjcubG9jYWwADXJlYWN0aXZlLWRlbW8
+2020-11-09T21:16:19,614-0200 [10157 37] com.newrelic INFO: Agent 10157@MAC-327.local/reactive-demo connected to collector.newrelic.com:443
+2020-11-09T21:16:19,614-0200 [10157 37] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/2938323/applications/749427298
+2020-11-09T21:16:19,616-0200 [10157 37] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2020-11-09T21:16:19,621-0200 [10157 37] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2020-11-09T21:16:19,653-0200 [10157 37] com.newrelic INFO: Real user monitoring is enabled for application reactive-demo. Auto instrumentation is enabled.
+2020-11-09T21:19:12,352-0200 [10157 12] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2020-11-09T21:19:12,675-0200 [10157 12] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2020-11-09T21:19:20,292-0200 [10201 1] com.newrelic INFO: Writing to New Relic log file: /Users/diego.ferreira/Documents/projects/reactive-demo-rc/logs/newrelic_agent.log
+2020-11-09T21:19:20,292-0200 [10201 1] com.newrelic INFO: JRE vendor Oracle Corporation version 11
+2020-11-09T21:19:20,292-0200 [10201 1] com.newrelic INFO: JVM vendor Oracle Corporation OpenJDK 64-Bit Server VM version 11+28
+2020-11-09T21:19:20,293-0200 [10201 1] com.newrelic INFO: OS Mac OS X version 10.15.7 arch x86_64
+2020-11-09T21:19:20,293-0200 [10201 1] com.newrelic INFO: Agent Host: MAC-327.local IP: 127.0.0.1
+2020-11-09T21:19:20,293-0200 [10201 1] com.newrelic INFO: New Relic Agent v6.1.0 is initializing...
+2020-11-09T21:19:20,895-0200 [10201 17] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2020-11-09T21:19:21,954-0200 [10201 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2020-11-09T21:19:22,192-0200 [10201 1] com.newrelic INFO: Setting audit_mode to false
+2020-11-09T21:19:22,396-0200 [10201 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /Users/diego.ferreira/Documents/projects/reactive-demo-rc/./newrelic.yml
+2020-11-09T21:19:22,402-0200 [10201 1] com.newrelic INFO: New Relic Agent v6.1.0 has started
+2020-11-09T21:19:22,403-0200 [10201 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@64485a47
+2020-11-09T21:19:22,403-0200 [10201 1] com.newrelic INFO: Premain startup complete in 3.085ms
+2020-11-09T21:20:04,372-0200 [10201 12] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2020-11-09T21:20:04,396-0200 [10201 12] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2020-11-09T21:20:09,954-0200 [10216 1] com.newrelic INFO: Writing to New Relic log file: /Users/diego.ferreira/Documents/projects/reactive-demo-rc/logs/newrelic_agent.log
+2020-11-09T21:20:09,955-0200 [10216 1] com.newrelic INFO: JRE vendor Oracle Corporation version 11
+2020-11-09T21:20:09,955-0200 [10216 1] com.newrelic INFO: JVM vendor Oracle Corporation OpenJDK 64-Bit Server VM version 11+28
+2020-11-09T21:20:09,955-0200 [10216 1] com.newrelic INFO: OS Mac OS X version 10.15.7 arch x86_64
+2020-11-09T21:20:09,955-0200 [10216 1] com.newrelic INFO: Agent Host: MAC-327.local IP: 127.0.0.1
+2020-11-09T21:20:09,955-0200 [10216 1] com.newrelic INFO: New Relic Agent v6.1.0 is initializing...
+2020-11-09T21:20:10,594-0200 [10216 17] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2020-11-09T21:20:11,550-0200 [10216 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2020-11-09T21:20:11,738-0200 [10216 1] com.newrelic INFO: Setting audit_mode to false
+2020-11-09T21:20:11,876-0200 [10216 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /Users/diego.ferreira/Documents/projects/reactive-demo-rc/./newrelic.yml
+2020-11-09T21:20:11,882-0200 [10216 1] com.newrelic INFO: New Relic Agent v6.1.0 has started
+2020-11-09T21:20:11,882-0200 [10216 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@64485a47
+2020-11-09T21:20:11,883-0200 [10216 1] com.newrelic INFO: Premain startup complete in 2.695ms
+2020-11-09T21:21:46,187-0200 [10216 12] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2020-11-09T21:21:46,214-0200 [10216 12] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2020-11-09T21:22:13,545-0200 [10249 1] com.newrelic INFO: Writing to New Relic log file: /Users/diego.ferreira/Documents/projects/reactive-demo-rc/logs/newrelic_agent.log
+2020-11-09T21:22:13,546-0200 [10249 1] com.newrelic INFO: JRE vendor Oracle Corporation version 11
+2020-11-09T21:22:13,546-0200 [10249 1] com.newrelic INFO: JVM vendor Oracle Corporation OpenJDK 64-Bit Server VM version 11+28
+2020-11-09T21:22:13,546-0200 [10249 1] com.newrelic INFO: OS Mac OS X version 10.15.7 arch x86_64
+2020-11-09T21:22:13,546-0200 [10249 1] com.newrelic INFO: Agent Host: MAC-327.local IP: 127.0.0.1
+2020-11-09T21:22:13,546-0200 [10249 1] com.newrelic INFO: New Relic Agent v6.1.0 is initializing...
+2020-11-09T21:22:14,267-0200 [10249 17] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2020-11-09T21:22:15,337-0200 [10249 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2020-11-09T21:22:15,518-0200 [10249 1] com.newrelic INFO: Setting audit_mode to false
+2020-11-09T21:22:15,670-0200 [10249 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /Users/diego.ferreira/Documents/projects/reactive-demo-rc/./newrelic.yml
+2020-11-09T21:22:15,678-0200 [10249 1] com.newrelic INFO: New Relic Agent v6.1.0 has started
+2020-11-09T21:22:15,678-0200 [10249 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@64485a47
+2020-11-09T21:22:15,679-0200 [10249 1] com.newrelic INFO: Premain startup complete in 3.226ms
+2020-11-09T21:23:11,060-0200 [10249 12] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2020-11-09T21:23:11,085-0200 [10249 12] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2020-11-09T21:23:17,360-0200 [10266 1] com.newrelic INFO: Writing to New Relic log file: /Users/diego.ferreira/Documents/projects/reactive-demo-rc/logs/newrelic_agent.log
+2020-11-09T21:23:17,361-0200 [10266 1] com.newrelic INFO: JRE vendor Oracle Corporation version 11
+2020-11-09T21:23:17,361-0200 [10266 1] com.newrelic INFO: JVM vendor Oracle Corporation OpenJDK 64-Bit Server VM version 11+28
+2020-11-09T21:23:17,361-0200 [10266 1] com.newrelic INFO: OS Mac OS X version 10.15.7 arch x86_64
+2020-11-09T21:23:17,361-0200 [10266 1] com.newrelic INFO: Agent Host: MAC-327.local IP: 127.0.0.1
+2020-11-09T21:23:17,361-0200 [10266 1] com.newrelic INFO: New Relic Agent v6.1.0 is initializing...
+2020-11-09T21:23:18,005-0200 [10266 17] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2020-11-09T21:23:18,970-0200 [10266 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2020-11-09T21:23:19,148-0200 [10266 1] com.newrelic INFO: Setting audit_mode to false
+2020-11-09T21:23:19,322-0200 [10266 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /Users/diego.ferreira/Documents/projects/reactive-demo-rc/./newrelic.yml
+2020-11-09T21:23:19,329-0200 [10266 1] com.newrelic INFO: New Relic Agent v6.1.0 has started
+2020-11-09T21:23:19,329-0200 [10266 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@64485a47
+2020-11-09T21:23:19,330-0200 [10266 1] com.newrelic INFO: Premain startup complete in 2.789ms
+2020-11-09T21:25:19,505-0200 [10266 37] com.newrelic INFO: Host name is MAC-327.local, display host MAC-327.local for application reactive-demo
+2020-11-09T21:25:20,312-0200 [10266 37] com.newrelic INFO: Collector redirection to collector-003.newrelic.com:443
+2020-11-09T21:25:21,848-0200 [10266 37] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2020-11-09T21:25:21,848-0200 [10266 37] com.newrelic INFO: Agent run id: BWS3GnqDDZuVACzV0yyrWmNfqdBEAAIBAAAnIQEAACgaAgQsq1piAwAFNi4xLjAADU1BQy0zMjcubG9jYWwADXJlYWN0aXZlLWRlbW8
+2020-11-09T21:25:21,849-0200 [10266 37] com.newrelic INFO: Agent 10266@MAC-327.local/reactive-demo connected to collector.newrelic.com:443
+2020-11-09T21:25:21,849-0200 [10266 37] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/2938323/applications/749427298
+2020-11-09T21:25:21,850-0200 [10266 37] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2020-11-09T21:25:21,852-0200 [10266 37] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2020-11-09T21:25:21,871-0200 [10266 37] com.newrelic INFO: Real user monitoring is enabled for application reactive-demo. Auto instrumentation is enabled.
+2020-11-09T21:26:40,735-0200 [10266 12] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2020-11-09T21:26:41,117-0200 [10266 12] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2020-11-09T21:26:47,321-0200 [10288 1] com.newrelic INFO: Writing to New Relic log file: /Users/diego.ferreira/Documents/projects/reactive-demo-rc/logs/newrelic_agent.log
+2020-11-09T21:26:47,322-0200 [10288 1] com.newrelic INFO: JRE vendor Oracle Corporation version 11
+2020-11-09T21:26:47,322-0200 [10288 1] com.newrelic INFO: JVM vendor Oracle Corporation OpenJDK 64-Bit Server VM version 11+28
+2020-11-09T21:26:47,322-0200 [10288 1] com.newrelic INFO: OS Mac OS X version 10.15.7 arch x86_64
+2020-11-09T21:26:47,322-0200 [10288 1] com.newrelic INFO: Agent Host: MAC-327.local IP: 127.0.0.1
+2020-11-09T21:26:47,322-0200 [10288 1] com.newrelic INFO: New Relic Agent v6.1.0 is initializing...
+2020-11-09T21:26:48,012-0200 [10288 17] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2020-11-09T21:26:49,041-0200 [10288 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2020-11-09T21:26:49,220-0200 [10288 1] com.newrelic INFO: Setting audit_mode to false
+2020-11-09T21:26:49,375-0200 [10288 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /Users/diego.ferreira/Documents/projects/reactive-demo-rc/./newrelic.yml
+2020-11-09T21:26:49,385-0200 [10288 1] com.newrelic INFO: New Relic Agent v6.1.0 has started
+2020-11-09T21:26:49,385-0200 [10288 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@64485a47
+2020-11-09T21:26:49,385-0200 [10288 1] com.newrelic INFO: Premain startup complete in 2.844ms
+2020-11-09T21:28:49,585-0200 [10288 37] com.newrelic INFO: Host name is MAC-327.local, display host MAC-327.local for application reactive-demo
+2020-11-09T21:28:50,143-0200 [10288 37] com.newrelic INFO: Collector redirection to collector-003.newrelic.com:443
+2020-11-09T21:28:50,569-0200 [10288 37] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2020-11-09T21:28:50,569-0200 [10288 37] com.newrelic INFO: Agent run id: BUTfeH73mYtZACzV0yyrWmNfqdD4AAIBAAAnIQEAACgwAgQsq1piAwAFNi4xLjAADU1BQy0zMjcubG9jYWwADXJlYWN0aXZlLWRlbW8
+2020-11-09T21:28:50,570-0200 [10288 37] com.newrelic INFO: Agent 10288@MAC-327.local/reactive-demo connected to collector.newrelic.com:443
+2020-11-09T21:28:50,570-0200 [10288 37] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/2938323/applications/749427298
+2020-11-09T21:28:50,572-0200 [10288 37] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2020-11-09T21:28:50,574-0200 [10288 37] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2020-11-09T21:28:50,596-0200 [10288 37] com.newrelic INFO: Real user monitoring is enabled for application reactive-demo. Auto instrumentation is enabled.
+2020-11-09T21:31:25,630-0200 [10288 12] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2020-11-09T21:31:25,982-0200 [10288 12] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2020-11-09T21:31:39,938-0200 [10316 1] com.newrelic INFO: Writing to New Relic log file: /Users/diego.ferreira/Documents/projects/reactive-demo-rc/logs/newrelic_agent.log
+2020-11-09T21:31:39,938-0200 [10316 1] com.newrelic INFO: JRE vendor Oracle Corporation version 11
+2020-11-09T21:31:39,938-0200 [10316 1] com.newrelic INFO: JVM vendor Oracle Corporation OpenJDK 64-Bit Server VM version 11+28
+2020-11-09T21:31:39,939-0200 [10316 1] com.newrelic INFO: OS Mac OS X version 10.15.7 arch x86_64
+2020-11-09T21:31:39,939-0200 [10316 1] com.newrelic INFO: Agent Host: MAC-327.local IP: 127.0.0.1
+2020-11-09T21:31:39,939-0200 [10316 1] com.newrelic INFO: New Relic Agent v6.1.0 is initializing...
+2020-11-09T21:31:40,578-0200 [10316 17] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2020-11-09T21:31:41,679-0200 [10316 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2020-11-09T21:31:41,870-0200 [10316 1] com.newrelic INFO: Setting audit_mode to false
+2020-11-09T21:31:42,034-0200 [10316 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /Users/diego.ferreira/Documents/projects/reactive-demo-rc/./newrelic.yml
+2020-11-09T21:31:42,039-0200 [10316 1] com.newrelic INFO: New Relic Agent v6.1.0 has started
+2020-11-09T21:31:42,039-0200 [10316 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@64485a47
+2020-11-09T21:31:42,040-0200 [10316 1] com.newrelic INFO: Premain startup complete in 3.159ms
+2020-11-09T21:33:42,264-0200 [10316 37] com.newrelic INFO: Host name is MAC-327.local, display host MAC-327.local for application reactive-demo
+2020-11-09T21:33:42,837-0200 [10316 37] com.newrelic INFO: Collector redirection to collector-003.newrelic.com:443
+2020-11-09T21:33:43,253-0200 [10316 37] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2020-11-09T21:33:43,253-0200 [10316 37] com.newrelic INFO: Agent run id: BZ5FoY3H4vm9ACzV0yyrWmNfqdIkAAIBAAAnIQEAAChMAgQsq1piAwAFNi4xLjAADU1BQy0zMjcubG9jYWwADXJlYWN0aXZlLWRlbW8
+2020-11-09T21:33:43,254-0200 [10316 37] com.newrelic INFO: Agent 10316@MAC-327.local/reactive-demo connected to collector.newrelic.com:443
+2020-11-09T21:33:43,255-0200 [10316 37] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/2938323/applications/749427298
+2020-11-09T21:33:43,257-0200 [10316 37] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2020-11-09T21:33:43,260-0200 [10316 37] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2020-11-09T21:33:43,290-0200 [10316 37] com.newrelic INFO: Real user monitoring is enabled for application reactive-demo. Auto instrumentation is enabled.
+2020-11-09T21:34:52,891-0200 [10316 12] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2020-11-09T21:34:53,227-0200 [10316 12] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2020-11-09T21:34:59,527-0200 [10349 1] com.newrelic INFO: Writing to New Relic log file: /Users/diego.ferreira/Documents/projects/reactive-demo-rc/logs/newrelic_agent.log
+2020-11-09T21:34:59,535-0200 [10349 1] com.newrelic INFO: JRE vendor Oracle Corporation version 11
+2020-11-09T21:34:59,536-0200 [10349 1] com.newrelic INFO: JVM vendor Oracle Corporation OpenJDK 64-Bit Server VM version 11+28
+2020-11-09T21:34:59,536-0200 [10349 1] com.newrelic INFO: OS Mac OS X version 10.15.7 arch x86_64
+2020-11-09T21:34:59,536-0200 [10349 1] com.newrelic INFO: Agent Host: MAC-327.local IP: 127.0.0.1
+2020-11-09T21:34:59,536-0200 [10349 1] com.newrelic INFO: New Relic Agent v6.1.0 is initializing...
+2020-11-09T21:35:00,359-0200 [10349 20] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2020-11-09T21:35:01,491-0200 [10349 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2020-11-09T21:35:01,733-0200 [10349 1] com.newrelic INFO: Setting audit_mode to false
+2020-11-09T21:35:01,913-0200 [10349 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /Users/diego.ferreira/Documents/projects/reactive-demo-rc/./newrelic.yml
+2020-11-09T21:35:01,921-0200 [10349 1] com.newrelic INFO: New Relic Agent v6.1.0 has started
+2020-11-09T21:35:01,921-0200 [10349 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@8b87145
+2020-11-09T21:35:01,922-0200 [10349 1] com.newrelic INFO: Premain startup complete in 3.476ms
+2020-11-09T21:37:40,552-0200 [10349 15] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2020-11-09T21:37:40,612-0200 [10349 40] com.newrelic INFO: Host name is MAC-327.local, display host MAC-327.local for application reactive-demo
+2020-11-09T21:37:41,354-0200 [10349 40] com.newrelic INFO: Collector redirection to collector-003.newrelic.com:443
+2020-11-09T21:37:41,793-0200 [10349 40] com.newrelic INFO: Max payload size is 1.000.000 bytes
+2020-11-09T21:37:41,794-0200 [10349 40] com.newrelic INFO: Agent run id: Baq-YpjdS3IVACzV0yyrWmNfqdMUAAIBAAAnIQEAAChtAgQsq1piAwAFNi4xLjAADU1BQy0zMjcubG9jYWwADXJlYWN0aXZlLWRlbW8
+2020-11-09T21:37:41,794-0200 [10349 40] com.newrelic INFO: Agent 10349@MAC-327.local/reactive-demo connected to collector.newrelic.com:443
+2020-11-09T21:37:41,795-0200 [10349 40] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/2938323/applications/749427298
+2020-11-09T21:37:41,798-0200 [10349 40] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2020-11-09T21:37:41,802-0200 [10349 40] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2020-11-09T21:37:41,813-0200 [10349 40] com.newrelic.agent.rpm.RPMConnectionServiceImpl INFO: Failed to connect to collector.newrelic.com:443 for reactive-demo: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@52916eaa[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@602fefb6[Wrapped task = com.newrelic.agent.util.SafeWrappers$1@4783336b]] rejected from java.util.concurrent.ScheduledThreadPoolExecutor@522c7bcd[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+2020-11-09T21:37:42,160-0200 [10349 15] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
