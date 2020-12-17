@@ -13,7 +13,7 @@ common: &default_settings
   # account. For example, if your license key is 12345 use this:
   # license_key: '12345'
   # The key binds your Agent's data to your account in the New Relic service.
-  license_key:
+  license_key: 2d4c5709fcc1cfc718764ebc955fd140a30cNRAL
 
   # Agent Enabled
   # Use this setting to disable the agent instead of removing it from the startup command.
@@ -146,7 +146,7 @@ common: &default_settings
     # Set this to true to log SQL statements instead of recording them.
     # SQL is logged using the record_sql mode.
     # Default is false.
-    log_sql: false
+    log_sql: true
 
     # Threshold in seconds for when to collect stack trace for a SQL
     # call. In other words, when SQL statements exceed this threshold,
@@ -254,7 +254,7 @@ common: &default_settings
 
     # This instrumentation reports metrics for resultset operations.
     com.newrelic.instrumentation.jdbc-resultset:
-      enabled: false
+      enabled: true
 
     # Classes loaded by classloaders in this list will not be instrumented.
     # This is a useful optimization for runtimes which use classloaders to
