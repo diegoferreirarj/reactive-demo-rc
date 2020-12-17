@@ -24,7 +24,7 @@ import java.time.Duration
 @ConditionalOnClass(NewRelicRegistry::class)
 class MicrometerConfig {
     @Bean
-    fun newRelicConfig(): NewRelicRegistryConfig {
+    fun microCustomNewRelicConfig(): NewRelicRegistryConfig {
         return object : NewRelicRegistryConfig {
             override fun apiKey(): String {
                 return System.getenv("NR_INSERT_API_KEY")
@@ -52,7 +52,7 @@ class MicrometerConfig {
 
     @Bean
     @Throws(UnknownHostException::class)
-    fun newRelicMeterRegistry(config: NewRelicRegistryConfig): NewRelicRegistry {
+    fun customNewRelicMeterRegistry(config: NewRelicRegistryConfig): NewRelicRegistry {
         val newRelicRegistry: NewRelicRegistry = NewRelicRegistry.builder(config)
                 .commonAttributes(
                         Attributes()

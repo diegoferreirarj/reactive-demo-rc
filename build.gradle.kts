@@ -28,8 +28,6 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
 	implementation("io.micrometer:micrometer-registry-new-relic")
-	runtimeOnly("com.h2database:h2")
-	implementation("io.r2dbc:r2dbc-h2")
 	implementation("com.newrelic.agent.java:newrelic-agent:6.2.1")
 	implementation("com.newrelic.agent.java:newrelic-api:6.2.1")
 	implementation("com.newrelic.telemetry:micrometer-registry-new-relic:0.5.0")
@@ -37,6 +35,11 @@ dependencies {
 	implementation("io.micrometer:micrometer-registry-new-relic")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("io.projectreactor:reactor-test")
+
+	implementation("io.zonky.test:embedded-database-spring-test:1.6.1")
+	implementation("io.r2dbc:r2dbc-postgresql")
+	runtimeOnly("org.postgresql:postgresql")
+
 }
 
 tasks.withType<Test> {

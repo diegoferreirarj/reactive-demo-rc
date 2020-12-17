@@ -1,6 +1,7 @@
 package com.example.reactivedemorc
 
 import io.r2dbc.spi.ConnectionFactory
+import io.zonky.test.db.postgres.embedded.EmbeddedPostgres
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 import org.springframework.context.annotation.Bean
@@ -38,5 +39,8 @@ class ReactiveDemoRcApplication {
 }
 
 fun main(args: Array<String>) {
+	val builder = EmbeddedPostgres.builder()
+	builder.setPort(50003)
+	builder.start()
 	runApplication<ReactiveDemoRcApplication>(*args)
 }
