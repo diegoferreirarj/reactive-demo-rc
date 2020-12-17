@@ -7,7 +7,6 @@ import org.springframework.boot.runApplication
 import org.springframework.context.annotation.Bean
 import org.springframework.core.io.ClassPathResource
 import org.springframework.data.domain.ReactiveAuditorAware
-import org.springframework.data.r2dbc.config.EnableR2dbcAuditing
 import org.springframework.data.r2dbc.repository.config.EnableR2dbcRepositories
 import org.springframework.r2dbc.connection.init.CompositeDatabasePopulator
 import org.springframework.r2dbc.connection.init.ConnectionFactoryInitializer
@@ -17,7 +16,6 @@ import reactor.core.publisher.Mono
 
 @SpringBootApplication
 @EnableR2dbcRepositories("com.example")
-@EnableR2dbcAuditing
 class ReactiveDemoRcApplication {
 	@Bean
 	fun auditorAware(): ReactiveAuditorAware<String>? {
